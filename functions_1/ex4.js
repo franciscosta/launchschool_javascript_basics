@@ -7,6 +7,7 @@
 
 */
 
+// Simple solition:
 const squaredNumber = a => a * a;
 
 console.log(squaredNumber(3)); // 9

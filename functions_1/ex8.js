@@ -14,8 +14,7 @@ const greet = (isoCode) => {
     pt: 'Olá!',
     de: 'Hallo!',
     sv: 'Hej',
-    af: 'Haai!'
-  }
+    af: 'Haai!'};
 
   return options[isoCode] ? options[isoCode] : 'Code not available';
 };
