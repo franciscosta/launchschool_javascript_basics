@@ -13,12 +13,10 @@ let groceryList = ['paprika', 'tofu', 'garlic', 'quinoa', 'carrots', 'broccoli',
 
 
 const runGrocery = arr => {
-
   let length = arr.length;
   for (let i = 0; i < length; i += 1) {
     console.log( arr.shift() );
   }
-  console.log(arr);
   return arr;
 };
 
